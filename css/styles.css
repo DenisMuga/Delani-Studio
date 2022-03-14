@@ -59,6 +59,8 @@
     background-image: url(/images/c_image.jpg);
     padding-top: 1%;
     margin-top: 3%;
+    background-size: cover;
+    background-position: center center;
     /* height: 65vh; */
 }
 .contact h1{
