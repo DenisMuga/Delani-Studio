@@ -49,14 +49,20 @@
 }
 .porfolio{
     margin-top: 4%;
-    text-align: center;
+    text-align: ceter;
 }
 .porfolio h1{
     text-align: center;
 }
 .contact{
-    /* color: white; */
+    color: white;
     background-image: url(/images/c_image.jpg);
+    padding-top: 1%;
+    margin-top: 3%;
+    /* height: 65vh; */
+}
+.contact h1{
+    text-align: center;
 }
 #MERGE1{
     width: 30vw;
@@ -70,8 +76,9 @@
 }
 #comment{
     width: 70vw;
+    height: 30vh;
     border: 2px solid white;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-right: 5%;
     margin-top: 1%;
 }
@@ -80,4 +87,12 @@ input[type=text],input[type=email],#comment{
     background: transparent;
     color: white;
     font-size: 20px;
+}
+.form-control::-webkit-input-placeholder { 
+    color: white; 
+}
+.btn{
+    margin-left: 42%;
+    width: 30vw;
+    margin-top: 5%;
 }
