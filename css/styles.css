@@ -66,10 +66,18 @@
 #MERGE0{
     width: 30vw;
     border: 2px solid white;
+    color: white;
 }
 #comment{
     width: 70vw;
     border: 2px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
 }
 
-
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
