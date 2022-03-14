@@ -3,4 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.branding{
+    background-image: url(/images/h_img.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-top: 50%;
+}
+
 
