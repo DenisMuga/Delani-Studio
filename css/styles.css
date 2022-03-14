@@ -35,4 +35,16 @@
 .words{
     margin-top: -22%;
 }
+.col-md-4 img{
+    margin-left: 35%;
+}
+.col-md-4 p{
+    text-align: center;
+}
+.what-we-do{
+    margin-top: 4%;
+}
+.what-we-do h1{
+    text-align: center;
+}
 
