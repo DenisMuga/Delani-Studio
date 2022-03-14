@@ -109,3 +109,8 @@ footer i{
     margin: 4px;
     border-radius: 50%;
 }
+.sign-off{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+}
