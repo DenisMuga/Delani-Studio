@@ -100,3 +100,12 @@ input[type=text],input[type=email],#comment{
     width: 30vw;
     margin-top: 5%;
 }
+footer{
+    text-align: center;
+    font-size: 40px;
+    
+}
+footer i{
+    margin: 4px;
+    border-radius: 50%;
+}
