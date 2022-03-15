@@ -1,138 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.branding{
-    background-image: url('../images/h_img.jpg');
-    color: white;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    background-repeat: no-repeat;
-    padding-top: 50%;
+.branding {
+  background-image: url("../images/h_img.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding-top: 50%;
 }
-.caption{
-    margin-top: -35%;
+.caption {
+  margin-top: -35%;
 }
-.mouse-click{
-    margin-top: 11%;
+.mouse-click {
+  margin-top: 11%;
 }
-.about-us{
-    margin-top: 4%;
-    text-align: center;
+.about-us {
+  margin-top: 4%;
+  text-align: center;
 }
-.services{
-    background-image: url('../images/s_image.jpg');
-    color: white;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    background-repeat: no-repeat;
-    padding-top: 30%;
-    margin-top: 4%;
+.services {
+  background-image: url("../images/s_image.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding-top: 30%;
+  margin-top: 4%;
 }
-.what-we-do h5{
-    text-align: center;
-    font-weight: bolder;
+.what-we-do h5 {
+  text-align: center;
+  font-weight: bolder;
 }
-.words{
-    margin-top: -22%;
+.words {
+  margin-top: -22%;
 }
-.col-md-4 img{
-    margin-left: 35%;
+.col-md-4 img {
+  margin-left: 35%;
 }
-.col-md-4 p{
-    text-align: center;
+.col-md-4 p {
+  text-align: center;
 }
-.what-we-do{
-    margin-top: 4%;
+.what-we-do {
+  margin-top: 4%;
 }
-.what-we-do h1{
-    text-align: center;
+.what-we-do h1 {
+  text-align: center;
 }
-.porfolio{
-    margin-top: 4%;
-    text-align: ceter;
+.porfolio {
+  margin-top: 4%;
+  text-align: ceter;
 }
-.porfolio h1{
-    text-align: center;
+.porfolio h1 {
+  text-align: center;
 }
-.contact{
-    color: white;
-    background-image: url('../images/c_image.jpg');
-    padding-top: 1%;
-    margin-top: 3%;
-    background-size: cover;
-    background-position: center center;
+.contact {
+  color: white;
+  background-image: url("../images/c_image.jpg");
+  padding-top: 1%;
+  margin-top: 3%;
+  background-size: cover;
+  background-position: center center;
 }
-.contact h1{
-    text-align: center;
+.contact h1 {
+  text-align: center;
 }
-#MERGE1{
-    width: 30vw;
-    border: 2px solid white;
-
+#MERGE1 {
+  width: 30vw;
+  border: 2px solid white;
 }
-#MERGE0{
-    width: 30vw;
-    border: 2px solid white;
-    color: white;
+#MERGE0 {
+  width: 30vw;
+  border: 2px solid white;
+  color: white;
 }
-#product>p, #development>p, #design>p{
-    display: none;
-  }
-  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-    display: none;
-    color: blue;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(255, 255, 255, 0.456);
-    position:absolute;
-    top: 20px;
-    left: 35px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 50%;
-    /* font-family: 'Delius Swash Caps', cursive; */
-  }
-  
-#comment{
-    width: 70vw;
-    height: 30vh;
-    border: 2px solid white;
-    margin-left: 4%;
-    margin-right: 5%;
-    margin-top: 1%;
+#product > p,
+#development > p,
+#design > p {
+  display: none;
+}
+#overlay,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+  display: none;
+  color: blue;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.456);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
 }
 
-input[type=text],input[type=email],#comment{
-    background: transparent;
-    color: white;
-    font-size: 20px;
+#comment {
+  width: 70vw;
+  height: 30vh;
+  border: 2px solid white;
+  margin-left: 4%;
+  margin-right: 5%;
+  margin-top: 1%;
 }
-.form-control::-webkit-input-placeholder { 
-    color: white; 
+
+input[type="text"],
+input[type="email"],
+#comment {
+  background: transparent;
+  color: white;
+  font-size: 20px;
 }
-.btn{
-    margin-left: 42%;
-    width: 30vw;
-    margin-top: 5%;
+.form-control::-webkit-input-placeholder {
+  color: white;
 }
-footer{
-    text-align: center;
-    font-size: 40px;
-    
+.btn {
+  margin-left: 42%;
+  width: 30vw;
+  margin-top: 5%;
 }
-footer i{
-    margin: 4px;
-    border-radius: 50%;
+footer {
+  text-align: center;
+  font-size: 40px;
 }
-.sign-off{
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 5%;
+footer i {
+  margin: 4px;
+  border-radius: 50%;
+}
+.sign-off {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5%;
 }
