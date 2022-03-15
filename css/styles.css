@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap'); */
 
 *{
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .branding{
-    background-image: url(/images/h_img.jpg);
+    background-image: url(./images/h_img.jpg);
     color: white;
     background-size: cover;
     background-position: center center;
@@ -25,7 +25,7 @@
     text-align: center;
 }
 .services{
-    background-image: url(/images/s_image.jpg);
+    background-image: url(./images/s_image.jpg);
     color: white;
     background-size: cover;
     background-position: center center;
@@ -62,12 +62,11 @@
 }
 .contact{
     color: white;
-    background-image: url(/images/c_image.jpg);
+    background-image: url(./images/c_image.jpg);
     padding-top: 1%;
     margin-top: 3%;
     background-size: cover;
     background-position: center center;
-    /* height: 65vh; */
 }
 .contact h1{
     text-align: center;
