@@ -112,7 +112,10 @@
 }
 #product>p, #development>p, #design>p{
     display: none;
-  }
+}
+#Interface, #DBA, #Branding, #Proto {
+    margin-top: 3%;
+}
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     display: none;
     color: blue;
