@@ -105,16 +105,36 @@
   text-align: center;
   font-size: 30px;
 }
-
-#comment {
-  width: 70vw;
-  height: 30vh;
-  border: 2px solid white;
-  margin-left: 4%;
-  margin-right: 5%;
-  margin-top: 1%;
+#MERGE0{
+    width: 30vw;
+    border: 2px solid white;
+    color: white;
 }
-
+#product>p, #development>p, #design>p{
+    display: none;
+  }
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    display: none;
+    color: blue;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.456);
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+#comment{
+    width: 70vw;
+    height: 30vh;
+    border: 2px solid white;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
 input[type="text"],
 input[type="email"],
 #comment {
