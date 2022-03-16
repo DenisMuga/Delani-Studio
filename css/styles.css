@@ -91,12 +91,11 @@
     height: 100%;
     background-color:rgba(255, 255, 255, 0.456);
     position:absolute;
-    top: 20px;
-    left: 35px;
+    top: 0px;
+    left: 0px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    /* padding-top: 50%; */
   }
   
 #comment{
