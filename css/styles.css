@@ -105,7 +105,6 @@
   text-align: center;
   font-size: 30px;
 }
-<<<<<<< HEAD
 #MERGE0{
     width: 30vw;
     border: 2px solid white;
@@ -135,7 +134,7 @@
     margin-left: 4%;
     margin-right: 5%;
     margin-top: 1%;
-=======
+}
 
 #comment {
   width: 70vw;
@@ -144,9 +143,27 @@
   margin-left: 4%;
   margin-right: 5%;
   margin-top: 1%;
->>>>>>> d88bac0f2b4292c4caaeb7cefc59ecdf49e0790c
 }
 
+input[type="text"],
+input[type="email"],
+#comment {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+.btn {
+  margin-left: 42%;
+  width: 30vw;
+  margin-top: 5%;
+}
+footer {
+  text-align: center;
+  font-size: 40px;
+}
 input[type="text"],
 input[type="email"],
 #comment {
