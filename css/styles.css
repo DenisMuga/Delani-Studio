@@ -73,12 +73,11 @@
 }
 #MERGE1 {
   width: 30vw;
-  border: 2px solid white;
+  border: 0.5px solid white;
 }
 #MERGE0 {
   width: 30vw;
-  border: 2px solid white;
-  color: white;
+  border: 0.5px solid white;
 }
 #product > p,
 #development > p,
@@ -107,8 +106,7 @@
 }
 #MERGE0{
     width: 30vw;
-    border: 2px solid white;
-    color: white;
+    border: 0.5px solid white;
 }
 #product>p, #development>p, #design>p{
     display: none;
@@ -128,21 +126,12 @@
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-  }
-  
-#comment{
-    width: 70vw;
-    height: 30vh;
-    border: 2px solid white;
-    margin-left: 4%;
-    margin-right: 5%;
-    margin-top: 1%;
 }
 
 #comment {
   width: 70vw;
   height: 30vh;
-  border: 2px solid white;
+  border: 0.5px solid white;
   margin-left: 4%;
   margin-right: 5%;
   margin-top: 1%;
